@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form + Tabel</title>
+</head>
+<body>
+    <table border="1" width="34%" height="450" cellspacing="0" cellpadding="7">
+        <tr>
+            <td style="background-color: grey;" align="center" colspan="3">INPUT DATA MAHASISWA</td>
+        </tr>
+        <tr>
+            <form><td>
+                Username 
+                </td>
+            <td>:</td>
+            <td><input type="text" name="username" /> </td>
+                 </form>
+        </tr>
+        <tr>
+           <form> <td>Password</td>
+            <td>:</td>
+            <td><input type="password" name="password" /> </td></form>
+        </tr>
+        <tr>
+            <form>
+                <td>Fullname</td>
+                <td>:</td>
+                <td><input type="text" name="fullname" /></td>
+            </form>
+        </tr>
+        <tr>
+            <form>
+                <td>E-mail</td>
+                <td>:</td>
+                <td><input type="email" name="E-mail" /></td>
+            </form>
+        </tr>
+        <tr>
+            <form>
+                <td>Agama</td>
+                <td>:</td>
+                <td><select>
+                    <option name="Agama" selected>--Pilih Agama--</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Konghucu">Konghucu</option>
+                </select></td>
+            </form>
+        </tr>
+        <tr>
+            <form>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td><input type="radio" name="Jenis Kel" value="pria" />Pria
+                <input type="radio" name="Jenis Kel" value="wanita" />Wanita</td>
+            </form>
+        </tr>
+        <tr>
+            <form>
+                <td>Hobi</td>
+                <td>:</td>
+                <td><input type="radio" name="hobi" value="Musik">Musik
+                <input type="radio" name="hobi" value="Olahraga">Olahraga
+            <input type="radio" name="hobi" value="Gaming">Gaming
+        <input type="radio" name="hobi" value="Lainnya">Lainnya</td>
+            </form>
+        </tr>
+        <tr>
+            <form>
+                <td>Profil Singkat</td>
+                <td>:</td>
+                <td>
+                    <textarea rows="4" cols="40" name="Profil Singkat"></textarea>
+                </td>
+            </form>
+        </tr>
+        <tr>
+            <form>
+                <td align="right" colspan="3"><input type="submit" name="input" value="input"></td>
+            </form>
+        </tr>
+    </table>
+</body>
+</html>
