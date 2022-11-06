@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 3 - CSS Dasar</title>
+    <style>
+        h1{
+            color: salmon;
+            font-family: arial;
+            font-size: 50px;
+        }
+        p{
+            color: green;
+
+        }
+
+        h3.paragraf2{
+            color: blue;
+        }
+        #p3{
+            color: orange;
+        }
+        .cetak-miring{
+            font-style: italic;
+        }
+
+
+        #huruf-besar{
+            text-transform: uppercase;
+        }
+
+       ol li a{
+            color: red;
+        }
+
+        .itw{
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .itw:hover{
+            color: salmon;
+            font-size: 35px;
+            text-transorm: uppercase;
+            text-decoration: line-through;
+        }
+
+        ol li a:hover{
+            text-decoration: none;
+            background-color: red;
+            color: white;
+        }
+
+        .kotak{
+            width: 150px;
+            height: 150px;
+            background-color: salmon;
+            margin: auto;
+            transition: 3s;
+        }
+
+        .kotak:hover{
+            border-radius:50%;
+            transform: rotate(360deg);
+            background-color: lightblue;
+
+        }
+
+
+
+    </style>
+    <!--id= penanda spesifik pada elemen(hanya boleh 1),
+         class= bisa untuk banyak elemen & bisa punya banyak class dalam 1 elemen-->
+</head>
+<body>
+    <!-- Membahas mengenai CSS Dasar -->
+    <h1 class="cetak-miring"
+    id="huruf-besar">Pertemuan 5 ITW</h1>
+    <h3 class="paragraf2">Naufal Kurnia</h3>
+    <p>paragraf 1</p>
+    <p class="paragraf2 cetak-miring">paragraf 2</p>
+    <p id="p3">paragraf 3</p>
+
+<ul>
+    <li><a href="">Link 1</a></li>
+    <li><a href="">Link 2</a></li>
+    <li><a href="">Link 3</a></li>
+    <li><a href="">Link 4</a></li>
+    <li><a href="">Link 5</a></li>
+</ul>
+
+<ol>
+    <li><a href="">Link 1</a></li>
+    <li><a href="">Link 2</a></li>
+    <li><a href="">Link 3</a></li>
+    <li><a href="">Link 4</a></li>
+    <li><a href="">Link 5</a></li>
+</ol>
+
+<a href="">ini link di luar list</a>
+
+<h3 class="itw">Internet dan Teknologi Web</h3>
+<div class="kotak"></div>
+
+</body>
+
+</html>
