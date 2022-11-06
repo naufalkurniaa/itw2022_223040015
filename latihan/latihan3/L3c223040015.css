@@ -1,0 +1,48 @@
+body {background-color: aqua;
+    font-family: georgia;
+    
+    }
+    
+    h1 {font-family: comic sans ms;
+        font-size: 60px;
+        color: darkblue;
+        text-align: center;
+    
+    }
+    
+    h4 { text-align: right;
+         font-style: italic;
+    
+    
+    }
+    
+    p {text-align: justify;
+    
+    
+    }
+    .putih { color: white;
+    
+    }
+    
+    .oren {color: orange;
+    
+    }
+    
+    .kanan {text-align: right;
+    
+    }
+    
+    .tengah { text-align: center;
+    
+    }
+    .merah:hover {
+        color: red;
+    }
+
+    .biru:hover {background-color: blue;
+        color: white;
+
+    }
+    
+    
+    
