@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern CSS</title>
+    <style>
+        .kotak1 {
+            width: 75px;
+            height: 150px;
+            background-color: rgba(127, 255, 212, 0.5);
+            margin: auto;
+            border-radius: 0 75px 75px 0;
+            /* lingkaran border radius setengah dari ukuran kotaknya*/
+            /* kiri atas searah jarum jam*/
+            opacity: 1;
+            position: relative;
+            z-index: 10;
+
+        }
+        p {
+            position: relative;
+            top: -100px;
+        }
+
+        .kotak2 {
+            width: 200px;
+            height: 200px;
+            background-color: darkslateblue;
+            margin: auto;
+           /* box-shadow: [inset] <x-offset> <y-offset> <blur> [size] <color> ;*/
+            box-shadow: 10px 10px 15px chocolate, -10px -10px 15px brown, 10px -10px 10px maroon
+        }
+
+
+        h1 {
+            text-align: center;
+            margin-top: 100px ;
+            font-family: arial;
+            font-size: 100px;
+            color: white;
+            text-shadow: 2px 2px 0px blueviolet;
+        }
+
+        .kotak3 {
+            width: 200px;
+            height: 200px;
+            background-color: lightgreen;
+            margin: auto;
+            font-size: 50px;
+            text-align: center;
+            line-height: 200px;
+            transition: 2s background-color, 3s 2s transform, 3s 5s border-radius;
+        }
+
+        .kotak3:hover {
+            transform: rotate(720deg);
+            background-color: salmon;
+            border-radius: 100px;
+
+        }
+    </style>
+</head>
+<body>
+     <div class="kotak1">
+        Lorem ipsum dolor sit amet.
+     </div>
+    
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe consectetur nulla maiores eveniet, suscipit non quia quibusdam nisi obcaecati officia hic neque iure minima exercitationem, expedita ullam recusandae unde atque. Modi omnis autem delectus voluptatibus est repudiandae numquam. Architecto enim iure officiis consectetur tenetur omnis eveniet corporis sequi iusto ipsum.</p>
+   
+     <div class="kotak2">
+   </div>
+   
+   <h1>Naufal Kurnia A</h1>
+
+   <div class="kotak3">1</div>
+
+
+</body>
+
+</html>
